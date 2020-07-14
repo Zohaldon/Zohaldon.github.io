@@ -19,11 +19,11 @@
 
 /*Image*/
 img{
+    border-radius: 1.5em;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 2em;
-    width: 51%;
+    margin-top: 3em;
 }
 .image_caption{
     text-align: center;
