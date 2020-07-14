@@ -1,34 +1,68 @@
-/*About Me*/
-.title{
-    margin-top: 2em;
-    text-align: center;
-    padding-bottom: 1em;
-    color: #000000;
-}
-
-.story{
-    text-align: left;
-    font-weight: 400;
-    color: #555d6d;
+.cv{
+    background-color: cornsilk;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .about_me{
-    margin-left: 25%;
-    margin-right: 25%;
+    background-color: darkkhaki;
+    margin-top: 1em;
+    margin-bottom: 20px;
+}
+
+/*About me*/
+.about_me_title{
+    color: #000000;
+    font-weight: 700;
+    font-size: 2.4rem;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.about_me_body{
+    width: 100%;
+    padding: 0 0 2rem;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.page{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 1.5rem;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 780px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 2rem 0 0;
+}
+
+/*Individual tag*/
+p{
+    margin: 0 0 1rem;
     line-height: 1.8rem;
 }
 
-/*Image*/
 img{
-    border-radius: 1.5em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3em;
-}
-.image_caption{
-    text-align: center;
-    color: #555d6d;
+    width: 100%;
+    margin-top: 2rem;
+    border-radius: 2em;
 }
 
 /*Font Style*/
@@ -40,36 +74,48 @@ img{
     font-family: 'Miriam Libre', sans-serif;
 }
 
-/*Responsive code*/
-
-@media screen and (max-width: 720px) {
-    .title{
-        text-align: center;
+/*Responsiveness code*/
+ /* iphone 6, 6s, 7, 8 */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+    .cv{
+        margin-left: 1em;
+        margin-right: 1em;
     }
+
     .about_me{
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    img{
-        display: block;
-        width: 320px;
-        height: 239.8px;
+        margin-top: 1em;
+        margin-bottom: 10%;
     }
 }
 
-@media screen and (max-width: 480px) {
-    .title{
-        text-align: center;
-    }
-    .about_me{
+/* iphone 6+, 6s+, 7+, 8+ */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+    .cv{
         margin-left: 10%;
         margin-right: 10%;
     }
+}
 
-    img{
-        display: block;
-        width: 320px;
-        height: 239.8px;
+/* iphone X , XS, 11 Pro */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    .cv{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+/* iphone XR, 11 */
+@media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 2) {
+    .cv{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+/* iphone XS Max, 11 Pro Max */
+@media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 3) {
+    .cv{
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
