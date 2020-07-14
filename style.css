@@ -1,0 +1,40 @@
+/*About Me*/
+.title{
+    margin-top: 2em;
+    text-align: center;
+    padding-bottom: 1em;
+    color: #000000;
+}
+
+.story{
+    text-align: left;
+    font-weight: 400;
+    color: #555d6d;
+}
+
+.about_me{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/*Image*/
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+    width: 51%;
+}
+.image_caption{
+    text-align: center;
+    color: #555d6d;
+}
+
+/*Font Style*/
+.muli{
+    font-family: 'Muli', sans-serif;
+}
+
+.miriam {
+    font-family: 'Miriam Libre', sans-serif;
+}
