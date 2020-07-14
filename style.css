@@ -126,6 +126,9 @@ li{
         margin-top: 1em;
         margin-bottom: 10%;
     }
+    .section h3, .section ul {
+        flex: 100%;
+    }
 }
 
 /* iphone 6+, 6s+, 7+, 8+ */
