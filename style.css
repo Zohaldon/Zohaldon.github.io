@@ -89,6 +89,10 @@
     margin-top: 2rem;
 }
 
+.resume_download{
+    text-align: center;
+}
+
 /*Individual tag*/
 p{
     margin: 0 0 1rem;
